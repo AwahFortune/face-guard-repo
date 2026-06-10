@@ -1,0 +1,33 @@
+# ── Web framework ─────────────────────────────────────────────────────────────
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+
+# ── Config & security ─────────────────────────────────────────────────────────
+pydantic-settings==2.6.1
+python-jose[cryptography]==3.3.0
+cryptography==43.0.3
+
+# ── Logging ───────────────────────────────────────────────────────────────────
+python-json-logger==2.0.7
+
+# ── Database ──────────────────────────────────────────────────────────────────
+mysql-connector-python==9.1.0
+pymilvus==2.4.9
+
+# ── Computer vision & ML ──────────────────────────────────────────────────────
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+Pillow==10.4.0
+scipy==1.14.1
+scikit-image==0.24.0
+insightface==0.7.3
+onnxruntime-gpu==1.19.2
+deepface==0.0.93
+torch==2.4.1
+torchvision==0.19.1
+mediapipe==0.10.14
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+requests==2.32.3

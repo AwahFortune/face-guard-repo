@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Models and large files
+models/.insightface/
+*.onnx
+*.mat
+*.caffemodel
+*.pt
+*.pth
+
+# However, we want to keep small required models like Epoch99.pth if it's small, 
+# but usually it's better to provide a download script.
+# Let's ignore the heavy insightface cache:
+models/.insightface/
+
+# Environment and logs
+.env
+*.log
+app.log
+
+# Temp files
+app/temp_frames/
