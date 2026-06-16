@@ -64,7 +64,7 @@ FaceGuard AI is built with scalability and security at its core:
 
 ## 📖 API Documentation
 
-FaceGuard provides Swagger UI out of the box when running locally.
+FaceGuard provides Swagger UI out of the box when running locally on your device.
 
 - `POST /api/v1/auth/token`: Retrieve a JWT token.
 - `POST /api/v1/register`: Enroll a new user face.
